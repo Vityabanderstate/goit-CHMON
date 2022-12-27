@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --title-text-coior: #2e2f42;
   --topic-text-color: #ffffff;
   --principle-title: #2e2f42;
@@ -9,6 +10,18 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   width: 1440px;
+=======
+   --title-text-coior: #2E2F42; 
+   --topic-text-color: #FFFFFF;
+   --principle-title:  #2E2F42;
+   --text-signatures: #434455;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+  
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 .list {
   list-style: none;
@@ -18,6 +31,7 @@ body {
 }
 /* Logotipe */
 .logo {
+<<<<<<< HEAD
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-weight: 800;
@@ -25,6 +39,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+=======
+    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 .logo-header {
   color: #2e2f42;
@@ -34,11 +57,23 @@ body {
 }
 /* .header */
 .header-link {
+<<<<<<< HEAD
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+=======
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+.header-link:hover {
+    color: #434455;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 .header-link:hover,
 .header-link:focus {
@@ -54,7 +89,11 @@ body {
 
 .header-details:hover,
 .header-details:focus {
+<<<<<<< HEAD
   color: #4d5ae5;
+=======
+    color: #4D5AE5;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 
 /* Main index.html */
@@ -63,6 +102,7 @@ body {
   background-color: #2e2f42;
 }
 .topic-title {
+<<<<<<< HEAD
   font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
@@ -81,11 +121,30 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+=======
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--topic-text-color )
+}
+.topic-button, .topic-button:hover {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 .topic-button:focus {
   background-color: #404bbf;
 }
 /* principle & team section */
+<<<<<<< HEAD
 .principle-title,
 .team-name {
   font-weight: 500;
@@ -116,6 +175,35 @@ body {
 
 .team-item {
   background-color: #ffffff;
+=======
+.principle-title, .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--principle-title);
+}
+.principle-text, .team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-signatures)
+}
+.visual-title, .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--title-text-coior)
+}
+.team {
+background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 
 /* footer */
@@ -139,6 +227,7 @@ body {
 }
 
 .category-button {
+<<<<<<< HEAD
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -153,6 +242,16 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+=======
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
 .category-button:hover,
 .category-button:focus {
@@ -160,6 +259,7 @@ body {
   color: #ffffff;
 }
 .banner-title {
+<<<<<<< HEAD
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -326,4 +426,18 @@ img {
 
 .footer-text {
   width: 264px;
+=======
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--principle-title)
+}
+.banner-category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-signatures)
+>>>>>>> 155720ed593c383311d5ced0f6c120f84e75f182
 }
